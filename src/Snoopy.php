@@ -1,5 +1,5 @@
 <?php
-namespace xj\snoopy;
+namespace Snoopy;
 /*************************************************
  *
  * Snoopy - the PHP net client
