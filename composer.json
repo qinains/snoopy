@@ -4,13 +4,9 @@
     "license": "GPLv2",
     "authors": [
         {
-            "name": "Andrei Zmievski"
-        },
-        {
-            "name": "Gene Wood"
-        },
-        {
-            "name": "Monte Ohrt"
+            "name": "Andrei Zmievski",
+			"name": "Gene Wood",
+			"name": "Monte Ohrt"
         }
     ],
 	"require": {
