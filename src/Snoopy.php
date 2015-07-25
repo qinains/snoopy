@@ -1,6 +1,4 @@
-<?php
-
-namespace Snoopy;
+<?php namespace Snoopy;
 
 /*************************************************
  *
@@ -28,6 +26,7 @@ namespace Snoopy;
  * The latest version of Snoopy can be obtained from:
  * http://snoopy.sourceforge.net/
  *************************************************/
+
 class Snoopy
 {
 	/**** Public variables ****/
