@@ -1,16 +1,14 @@
 {
-    "name": "snoopy/snoopy",
+    "name": "pherum/snoopy",
     "description": "snoopy",
     "license": "GPLv2",
     "authors": [
         {
-            "name": "Andrei Zmievski",
-			"name": "Gene Wood",
-			"name": "Monte Ohrt"
+            "name": "Andrei Zmievski"
         }
     ],
 	"require": {
-		"php": ">=5.3.2"
+		"php": ">=5.4"
 	},
     "autoload": {
         "psr-4": {
