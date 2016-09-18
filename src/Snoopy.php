@@ -821,7 +821,7 @@ class Snoopy
 				$cookie_headers .= 'Cookie: ';
 				foreach ($this->cookies as $cookieKey => $cookieVal)
 				{
-					$cookie_headers .= $cookieKey . "=" . urlencode($cookieVal) . "; ";
+					$cookie_headers .= $cookieKey . "=" . $cookieVal . "; ";
 				}
 				$headers .= substr($cookie_headers, 0, -2) . "\r\n";
 			}
@@ -1003,7 +1003,7 @@ class Snoopy
 		{
 			if (preg_match('/^set-cookie:[\s]+([^=]+)=([^;]+)/i', $this->headers[$x], $match))
 			{
-				$this->cookies[$match[1]] = urldecode($match[2]);
+				$this->cookies[$match[1]] = $match[2];
 			}
 		}
 
